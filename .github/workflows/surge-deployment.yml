@@ -43,4 +43,4 @@ jobs:
       run: npm install -global surge
     
     - name: Deploy to Surge
-      run: surge ./build base-react-app.surge.sh ${{ secrets.SURGE_TOKEN }}
+      run: surge ./build fuzailafsar-react-app.surge.sh --token ${{ secrets.SURGE_TOKEN }}
